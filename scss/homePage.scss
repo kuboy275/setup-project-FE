@@ -1,0 +1,7 @@
+@for $i from 1 through 3 {
+    .fading-item {
+        &:nth-child(#{$i}) {
+            transition-delay: 250ms * $i;
+        }
+    }
+}

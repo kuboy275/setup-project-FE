@@ -1,0 +1,17 @@
+{
+  "name": "ice-cream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass -o assets/css scss/ -w",
+    "pug" : "./node_modules/.bin/pug -w -P ./templates -o ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
